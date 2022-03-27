@@ -289,7 +289,7 @@ defaults:
       comments: true
       share: true
       related: true
-      popular: false
+      mathjax: true
       sidebar_main: true
   
   # _pages
