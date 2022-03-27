@@ -11,8 +11,8 @@ tags:
 # toc_sticky: true
 use_math: true
 
-date: 2022-03-20
-last_modified_at: 2022-03-20
+# date: 2022-03-20
+# last_modified_at: 2022-03-20
 ---
 # 그로스 해킹
 그로스 해킹(Growth Hacking)이라는 단어는 드롭박스 마케팅 신화의 주인공인 션 엘리스(Sean Ellis)이 처음으로 쓴 용어입니다. 

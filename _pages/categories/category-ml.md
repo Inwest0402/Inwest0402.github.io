@@ -7,5 +7,5 @@ author_profile: true
 ---
 
 
-{% assign posts = site.categories.ml %}
+{% assign posts = site.categories.ML %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

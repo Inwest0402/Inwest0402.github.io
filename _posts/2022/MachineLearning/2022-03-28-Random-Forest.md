@@ -11,8 +11,8 @@ tags:
 # toc_sticky: true
 use_math: true
 
-date: 2022-03-28
-last_modified_at: 2022-03-28
+# date: 2022-03-28
+# last_modified_at: 2022-03-28
 ---
 
 # 랜덤 포레스트의 개요
