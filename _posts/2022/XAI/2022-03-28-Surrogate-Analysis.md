@@ -14,7 +14,7 @@ use_math: true
 # date: 2022-03-29
 # last_modified_at: 2022-03-29
 ---
-# Surrogate Analysis
+<!-- # Surrogate Analysis -->
 
 대리분석이란 본래 기능을 흉내 내는 간단한 대체제를 만들어서 프로토타입이 동작하는지 판단하는 분석방법입니다.
 

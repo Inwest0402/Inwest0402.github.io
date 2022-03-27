@@ -58,3 +58,7 @@ use_math: true
     - Acquisition, Activation, Retention, Revenue, Referal이 있습니다.
     
     - AARRR은 그로스해킹 기반의 대표적인 지표 관리 방법론이라고 할 수 있습니다.
+
+    > 본 내용은 양승화님의 그로스해킹 책을 참고하여 정리한 글입니다. <br>
+[https://wikibook.co.kr/growthhacking/](https://wikibook.co.kr/growthhacking/)
+> 

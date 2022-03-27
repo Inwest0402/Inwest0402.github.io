@@ -1,6 +1,6 @@
 ---
 title:  "[ML] 머신러닝이란"
-excerpt: "머신러닝인란 무엇인가"
+# excerpt: "머신러닝인란 무엇인가"
 
 categories:
   - ML
@@ -11,8 +11,8 @@ toc: true
 toc_sticky: true
 use_math: true
 
-date: 2022-03-21
-last_modified_at: 2022-03-21
+# date: 2022-03-21
+# last_modified_at: 2022-03-21
 ---
 
 # 머신러닝이란 무엇인가
