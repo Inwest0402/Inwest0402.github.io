@@ -5,7 +5,7 @@ title:  "[ML] 머신러닝이란"
 categories:
   - Machine-Learning
 tags:
-  - [Machine Learning]ㄴ
+  - [Machine Learning]
 
 toc: true
 toc_sticky: true
