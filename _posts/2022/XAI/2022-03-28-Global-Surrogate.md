@@ -29,7 +29,9 @@ use_math: true
     
     e.g., R-squared방식
     
-    $R^2=1-\frac{SSE}{SST}=1-\frac{\sum_{i=1}^n(\hat{y}_*^{(i)}-\hat{y}^{(i)})^2}{\sum_{i=1}^n(\hat{y}^{(i)}-\hat{y})^2}$
+    $$
+    R^2=1-\frac{SSE}{SST}=1-\frac{\sum_{i=1}^n(\hat{y}_*^{(i)}-\hat{y}^{(i)})^2}{\sum_{i=1}^n(\hat{y}^{(i)}-\hat{y})^2}
+    $$
     
     여기서, $\hat{y}_*^{(i)}$는 모델 $g$가 예측한 i번째 데이터의 결과이고, $\hat{y}^{(i)}$는 모델 $f$가 예측한 i 번째 데이터의 결과이며, $\hat{y}$는 모델$f$의 예측 평균값입니다.
     
