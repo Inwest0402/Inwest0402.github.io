@@ -3,7 +3,7 @@ title:  "[XAI] 글로벌 대리분석(Global Surrogate Analysis)"
 excerpt: "글로벌 대리 분석이란 전체 학습 데이터를 상영해 블랙박스 함수 $f$를 따라하는 유사함수 $g$를만들고 $g$를 해석 가능하도록 변조하는 방법입니다."
 
 categories:
-  - ['Explainable AI']
+  - Explainable-AI
 tags:
   - [Machine Learning, XAI,Global Surrogate Analysis ]
 

@@ -3,7 +3,7 @@ title:  "[ML] 머신러닝이란"
 # excerpt: "머신러닝인란 무엇인가"
 
 categories:
-  - ['Machine Learning']
+  - Machine-Learning
 tags:
   - [Machine Learning]
 
