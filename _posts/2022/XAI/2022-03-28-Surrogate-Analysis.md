@@ -3,7 +3,7 @@ title:  "[XAI] 대리분석(Surrogate Analysis)"
 excerpt: "대리분석이란 본래 기능을 흉내 내는 간단한 대체제를 만들어서 프로토타입이 동작하는지 판단하는 분석방법입니다."
 
 categories:
-  - Xai
+  - ['Explainable AI']
 tags:
   - [Machine Learning, XAI,Surrogate Analysis ]
 

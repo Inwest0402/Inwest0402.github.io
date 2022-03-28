@@ -18,7 +18,7 @@
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/ml 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "ML" %}
+                    {% if category[0] == "Machine Learning" %}
                         <li><a href="/categories/ml" class="">Machine Learning({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -32,7 +32,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Xai" %}
+                    {% if category[0] == "Explainable AI" %}
                         <li><a href="/categories/xai" class="">Explainable AI ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -40,7 +40,7 @@
         <span class="nav__sub-title">Growth Hacking</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Growth" %}
+                    {% if category[0] == "Growth Hacking" %}
                         <li><a href="/categories/growth" class="">Growth Hacking ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}

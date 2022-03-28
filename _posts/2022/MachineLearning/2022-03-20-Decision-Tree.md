@@ -3,7 +3,7 @@ title:  "[ML] 의사결정나무(Decision Tree)"
 excerpt: "분류와 회귀 작업 그리도 다중 출력 또한 가능한 의사결정나무"
 
 categories:
-  - ML
+  - ['Machine Learning']
 tags:
   - [Machine Learning, Classification, Decision Tree, CART]
 

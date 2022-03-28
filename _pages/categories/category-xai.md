@@ -7,5 +7,5 @@ author_profile: true
 ---
 
 
-{% assign posts = site.categories.Xai %}
+{% assign posts = site.categories.['Explainable AI'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
