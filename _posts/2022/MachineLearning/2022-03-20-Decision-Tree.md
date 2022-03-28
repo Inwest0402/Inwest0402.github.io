@@ -7,8 +7,8 @@ categories:
 tags:
   - [Machine Learning, Classification, Decision Tree, CART]
 
-# toc: true
-# toc_sticky: true
+toc: true
+toc_sticky: true
 use_math: true
 
 # date: 2022-03-20

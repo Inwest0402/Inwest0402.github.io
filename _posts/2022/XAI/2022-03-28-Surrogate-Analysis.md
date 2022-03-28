@@ -1,14 +1,14 @@
 ---
 title:  "[XAI] 대리분석(Surrogate Analysis)"
-# excerpt: "분류와 회귀 작업 그리도 다중 출력 또한 가능한 의사결정나무"
+excerpt: "대리분석이란 본래 기능을 흉내 내는 간단한 대체제를 만들어서 프로토타입이 동작하는지 판단하는 분석방법입니다."
 
 categories:
   - Xai
 tags:
   - [Machine Learning, XAI,Surrogate Analysis ]
 
-# toc: true
-# toc_sticky: true
+toc: true
+toc_sticky: true
 use_math: true
 
 # date: 2022-03-29

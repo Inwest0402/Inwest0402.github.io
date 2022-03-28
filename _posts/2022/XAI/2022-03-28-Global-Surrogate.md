@@ -1,14 +1,14 @@
 ---
 title:  "[XAI] 글로벌 대리분석(Global Surrogate Analysis)"
-# excerpt: "분류와 회귀 작업 그리도 다중 출력 또한 가능한 의사결정나무"
+excerpt: "글로벌 대리 분석이란 전체 학습 데이터를 상영해 블랙박스 함수 $f$를 따라하는 유사함수 $g$를만들고 $g$를 해석 가능하도록 변조하는 방법입니다."
 
 categories:
   - Xai
 tags:
   - [Machine Learning, XAI,Global Surrogate Analysis ]
 
-# toc: true
-# toc_sticky: true
+toc: true
+toc_sticky: true
 use_math: true
 
 # date: 2022-03-29

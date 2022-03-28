@@ -7,8 +7,8 @@ categories:
 tags:
   - [Machine Learning, Boostrap, Random Forest]
 
-# toc: true
-# toc_sticky: true
+toc: true
+toc_sticky: true
 use_math: true
 
 # date: 2022-03-28
@@ -16,7 +16,9 @@ use_math: true
 ---
 
 
-머신 러닝에서 랜덤 포레스트는 분류, 회귀 분석등에 사용되는 앙상블 학습 방법의 일종으로, 훈련 과정에서 구성한 다수의 결정 트리로부터 부류(분류) 또는 평균치 예측치(회귀 분석)를 출력함으로써 동작합니다.(출처 [위키백과](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8) )
+머신 러닝에서 랜덤 포레스트는 분류, 회귀 분석등에 사용되는 앙상블 학습 방법의 일종으로, 훈련 과정에서 구성한 다수의 결정 트리로부터 부류(분류) 또는 평균치 예측치(회귀 분석)를 출력함으로써 동작합니다.
+
+(출처 [위키백과](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8))
 
 랜덤 포레스트의 가장 큰 특징은 이름에서도 볼 수 있듯이 랜덤성이며, 이에 의해 트리들이 서로 조금씩 다른 특성을 갖습니다.
 
