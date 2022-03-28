@@ -1,5 +1,5 @@
 ---
-title:  "[Growrh Hacking] 그로스해킹이란?"
+title:  "[Growrth Hacking] 그로스해킹이란?"
 # excerpt: "분류와 회귀 작업 그리도 다중 출력 또한 가능한 의사결정나무"
 
 categories:
