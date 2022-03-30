@@ -4,8 +4,8 @@ excerpt: "대리분석이란 본래 기능을 흉내 내는 간단한 대체제�
 
 categories:
   - Explainable-AI
-tags:
-  - [Machine Learning, XAI,Surrogate Analysis ]
+# tags:
+#   - [Machine Learning, XAI,Surrogate Analysis ]
 
 toc: true
 toc_sticky: true

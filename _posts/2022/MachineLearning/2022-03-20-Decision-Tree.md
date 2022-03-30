@@ -4,8 +4,8 @@ excerpt: "분류와 회귀 작업 그리도 다중 출력 또한 가능한 의�
 
 categories:
   - Machine-Learning
-tags:
-  - [Machine Learning, Classification, Decision Tree, CART]
+# tags:
+#   - [Machine Learning, Classification, Decision Tree, CART]
 
 toc: true
 toc_sticky: true

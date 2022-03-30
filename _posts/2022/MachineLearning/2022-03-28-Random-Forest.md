@@ -4,8 +4,8 @@ title:  "[ML] 랜덤 포레스트(Random Forest)"
 
 categories:
   - Machine-Learning
-tags:
-  - [Machine Learning, Boostrap, Random Forest]
+# tags:
+#   - [Machine Learning, Boostrap, Random Forest]
 
 toc: true
 toc_sticky: true

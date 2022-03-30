@@ -4,8 +4,8 @@ excerpt: "글로벌 대리 분석이란 전체 학습 데이터를 상영해 블
 
 categories:
   - Explainable-AI
-tags:
-  - [Machine Learning, XAI,Global Surrogate Analysis ]
+# tags:
+#   - [Machine Learning, XAI,Global Surrogate Analysis ]
 
 toc: true
 toc_sticky: true

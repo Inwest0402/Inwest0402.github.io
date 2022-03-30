@@ -4,8 +4,8 @@ excerpt: "사회과학자들은 어떤 실 세계의 과정이 특정 조건에�
 
 categories:
   - Statistics
-tags:
-  - [Statistics]
+# tags:
+#   - [Statistics]
 
 toc: true
 toc_sticky: true
