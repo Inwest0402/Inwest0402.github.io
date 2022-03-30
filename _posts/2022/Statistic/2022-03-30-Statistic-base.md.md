@@ -74,7 +74,7 @@ $$
 
 아래 그림은 통계학 강사들의 친구 수와 그 평균, 그리고 둘의 차이들을 나타냈습니다.
 
-![Untitled.png](/assets/images/posts/Statistics/2022-03-28-Statisics-Base/Untitled.png)
+![Untitled.png](/assets/images/posts/Statistics/2022-03-30-Statistics-Base/Untitled.png)
 
 
 이 그래프에서 둥근 점은 관측자료이고, 평균을 나타내는 직선은 하나의 모형에 해당됩니다.그리고 점선으로 된 수직 선분들은 해당 관측값과 평군값의 차이를 나타냅니다.
@@ -345,7 +345,7 @@ $$
 
 신뢰구간은 모집단 평균이 속할 가능성이 큰 구간의 상, 하계를 말해줍니다(신뢰구간의 크기는 표준오차의 크기에 의존합니다). 서로 다른 평균들의 신뢰구간들을 비교해 보면 그 평균들이 같은 모집단에서 비롯된 것인지 아니면 서로 다른 모집단들에서 비롯된 것인지 어느 정도 짐작할 수 있습니다.
 
-![Untitled1.png](/assets/images/posts/Statistics/2022-03-28-Statisics-Base/Untitled1.png)
+![Untitled1.png](/assets/images/posts/Statistics/2022-03-30-Statistics-Base/Untitled1.png)
 
 신뢰구간이 2번과 3번처럼 겹친다는 것은 이 평균들이 같은 모집단에서 나왔을 가능성이 크다는 뜻입니다. 왜나면 두 경우 모두 평균의 참값이 해당 구간에 속할 가능성이 크며(95%의 연구들에서 그런 결과가 나오도록 계산된 구간들이므로), 두 구간이 상당히 많이 겹치므로 두 구간에 비슷한 값들이 많이 있을 것이기 때문입니다.
 
@@ -456,7 +456,7 @@ $$
 
 검정통계량의 방향(양인지 음인지)은 차이가 양인지 음인지에 따라 결정됩니다. 양의 차이나 관계(이 책을 읽으면 통계학이 싫어진다)가 존재한다고 가정할 때, 그러한 차이를 검출하려면 독자들의 평균이 비독자들의 평균보다 크다는 사실을 고려해야됩니다(그래야 양의 검정통계량이 나옵니다). 그러나 이러한 가정이 잘못된 예측이어서 사실은 이 책을 읽을수록 통계학이 좋아진다면, 검정통계량은 음이 됩니다.
 
-![Untitled2.png](/assets/images/posts/Statistics/2022-03-28-Statisics-Base/Untitled2.png)
+![Untitled2.png](/assets/images/posts/Statistics/2022-03-30-Statistics-Base/Untitled2.png)
 
 이러한 논의가 뜻하는 바는 .05의 유의수준을 만족하려면 검정통계량이 10보다 큰 값이어야 하지만 실제로는 -12가 나왔다고 상상해보면, 차이가 존재하긴 하지만 그래도 가설을 기각해야됩니다. 이를 피하려면 가능한 검정통계량들의 분포에서 양 끝(즉, 두 꼬리)을 모두 봐야합니다. 이는 양의 검정통계량과 음의 검정통계량을 모두 포착한다는 뜻입니다.
 
@@ -474,9 +474,9 @@ $$
 
 ## 5. 3 제 1종 오류와 제2종 오류
 
-![Untitled3.png](/assets/images/posts/Statistics/2022-03-28-Statisics-Base/Untitled3.png)
+![Untitled3.png](/assets/images/posts/Statistics/2022-03-30-Statistics-Base/Untitled3.png)
 
-![Untitled4.png](/assets/images/posts/Statistics/2022-03-28-Statisics-Base/Untitled4.png)
+![Untitled4.png](/assets/images/posts/Statistics/2022-03-30-Statistics-Base/Untitled4.png)
 
 (이미지 출처 : https://marginalrevolution.com/marginalrevolution/2014/05/type-i-and-type-ii-errors-simplified.html)
 
