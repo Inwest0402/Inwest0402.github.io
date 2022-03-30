@@ -1,5 +1,5 @@
 ---
-title:  "[ML] 랜덤 포레스트(Random Forest))"
+title:  "[ML] 랜덤 포레스트(Random Forest)"
 # excerpt: "분류와 회귀 작업 그리도 다중 출력 또한 가능한 의사결정나무"
 
 categories:
