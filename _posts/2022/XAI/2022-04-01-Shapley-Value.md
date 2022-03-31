@@ -340,7 +340,7 @@ $$
 하지만, 모든 순서를 고려하기 대문에 빠른 속도로 계산하는 것은 불가능합니다. 
 
 
-
-참고
+--------------------
+***참고***
 
 [Interpreting complex models with SHAP values](https://gabrieltseng.github.io/posts/2018-06-20-SHAP/)
