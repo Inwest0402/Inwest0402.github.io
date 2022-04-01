@@ -1,3 +1,4 @@
-User-agent: *
-Allow: /
-Sitemap: https://yenarue.github.io/sitemap.xml
+User-agent: Yeti
+Allow:/
+Sitemap: https://inwest0402.github.io/sitemap.xml
+
