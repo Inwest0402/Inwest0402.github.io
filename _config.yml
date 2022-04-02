@@ -120,7 +120,7 @@ author:
 #       url: "https://www.facebook.com/seokjin.kim.16"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Inwest0402"
+      url: "https://github.com/inwest0402"
 #     - label: "Instagram"
 #       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -139,7 +139,7 @@ footer:
 #       url: "https://www.facebook.com/seokjin.kim.16"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Inwest0402"
+      url: "https://github.com/inwest0402"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
