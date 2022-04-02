@@ -264,11 +264,11 @@ $$
 
 ```python
 matrix1 = torch.FloatTensor([[1, 2, 3]
-                                                    ,[4, 5, 6]
-                                                    ,[7, 8, 9]])
+                            ,[4, 5, 6]
+                            ,[7, 8, 9]])
 matrix2 = torch.FloatTensor([[1, 2]
-                                                    ,[4, 5]
-                        ,[6, 7]])
+                            ,[4, 5]
+                            ,[6, 7]])
 print('Shape of Matrix 1: ', matrix1.shape) 
 print('Shape of Matrix 2: ', matrix2.shape) 
 print(matrix1.matmul(matrix2))
@@ -289,10 +289,10 @@ tensor([[ 27.,  33.],
 ```python
 matrix1 = torch.FloatTensor([[1, 2, 3]
                         ,[4, 5, 6]
-                                                    ,[7, 8, 9]])
+                        ,[7, 8, 9]])
 matrix2 = torch.FloatTensor([[1]
-                                                    ,[4]
-                        ,[6]])
+                            ,[4]
+                            ,[6]])
 print('Shape of Matrix 1: ', matrix1.shape) 
 print('Shape of Matrix 2: ', matrix2.shape) 
 print(matrix1*matrix2)
@@ -395,7 +395,7 @@ tensor([2., 5.])
 
 ```python
 tensor = torch.FloatTensor([[1, 2, 3]
-                        ,[4, 5, 6]])
+                           ,[4, 5, 6]])
 
 print(tensor.sum())
 print(tensor.sum(dim = 0))
@@ -422,7 +422,7 @@ max는 원소의 최댓값을 리턴하고, argmax는 최댓값을 가진 인덱
 
 ```python
 tensor = torch.FloatTensor([[1, 2, 3]
-                        ,[4, 5, 6]])
+                           ,[4, 5, 6]])
 
 print('tensor.max:',tensor.max())
 print('\ntensor.max(dim=0):\n',tensor.max(dim = 0))
@@ -498,7 +498,7 @@ tensor([2, 2])
 
 ```python
 tensor = torch.FloatTensor([[1, 2, 3]
-                        ,[4, 5, 6]])
+                           ,[4, 5, 6]])
 
 print(tensor .shape)
 ```
@@ -515,7 +515,7 @@ torch.Size([2, 3])
 
 ```python
 tensor = torch.FloatTensor([[1, 2, 3]
-                        ,[4, 5, 6]])
+                           ,[4, 5, 6]])
 print(tensor.view([-1, 2, 1])) 
 print(tensor.view([-1, 2, 1]).shape)
 ```
@@ -525,11 +525,9 @@ print(tensor.view([-1, 2, 1]).shape)
 ```python
 tensor([[[1.],
         [2.]],
-
-    [[3.],
+       [[3.],
         [4.]],
-
-    [[5.],
+       [[5.],
         [6.]]])
 torch.Size([3, 2, 1])
 ```
@@ -546,8 +544,8 @@ torch.Size([3, 2, 1])
 
 ```python
 matrix = torch.FloatTensor([[1]
-                        ,[2] 
-                        ,[3]])
+                           ,[2] 
+                           ,[3]])
 print(matrix.shape)
 print('squeeze후 matrix:',matrix.squeeze())
 print('squeeze후 크기:',matrix.squeeze().shape)
@@ -569,7 +567,7 @@ $3\times 1$ 크기였던 텐서는 `squeeze`로 변환 후 두 번째 차원의 
 
 ```python
 matrix = torch.FloatTensor([[1,2,3]
-                        ,[4,5,6]])
+                           ,[4,5,6]])
 print(matrix.shape)
 print('\n첫 번째 차원에 unsqueeze후 matrix:\n',matrix.unsqueeze(0))
 print('\n첫 번째 차원에 unsqueeze후 크기:\n',matrix.unsqueeze(0).shape)
@@ -593,8 +591,7 @@ torch.Size([1, 2, 3])
 
 두 번째 차원에 unsqueeze후 matrix:
 tensor([[[1., 2., 3.]],
-
-    [[4., 5., 6.]]])
+        [[4., 5., 6.]]])
 
 두 번째 차원에 unsqueeze후 크기:
 torch.Size([2, 1, 3])
@@ -603,8 +600,7 @@ torch.Size([2, 1, 3])
 tensor([[[1.],
         [2.],
         [3.]],
-
-    [[4.],
+       [[4.],
         [5.],
         [6.]]])
 
@@ -662,11 +658,11 @@ tensor([1., 1., 1., 0.])
 
 ```python
 matrix1 = torch.FloatTensor([[1]
-                        ,[2] 
-                        ,[3]])
+                            ,[2] 
+                            ,[3]])
 matrix2 = torch.FloatTensor([[4]
-                        ,[5] 
-                        ,[6]])
+                            ,[5] 
+                            ,[6]])
 print(torch.cat([matrix1, matrix2]))
 print(torch.cat([matrix1, matrix2], dim = 0))
 print(torch.cat([matrix1, matrix2], dim = 1))
@@ -676,20 +672,20 @@ print(torch.cat([matrix1, matrix2], dim = 1))
 
 ```python
 tensor([[1.],
-    [2.],
-    [3.],
-    [4.],
-    [5.],
-    [6.]])
+        [2.],
+        [3.],
+        [4.],
+        [5.],
+        [6.]])
 tensor([[1.],
-    [2.],
-    [3.],
-    [4.],
-    [5.],
-    [6.]])
+        [2.],
+        [3.],
+        [4.],
+        [5.],
+        [6.]])
 tensor([[1., 4.],
-    [2., 5.],
-    [3., 6.]])
+        [2., 5.],
+        [3., 6.]])
 ```
 
 여기에 `dim`인자를 설정할 수 있습니다. 만약 `dim`을 설정 안하면 디폴트로 0이 설정됩니다.
@@ -716,17 +712,17 @@ print(torch.stack([matrix1, matrix2, matrix3], dim = 1).shape)
 
 ```python
 tensor([[ 1.,  2.,  3.,  4.],
-    [ 5.,  6.,  7.,  8.],
-    [ 9., 10., 11., 12.]])
+        [ 5.,  6.,  7.,  8.],
+        [ 9., 10., 11., 12.]])
 torch.Size([3, 4])
 tensor([[ 1.,  2.,  3.,  4.],
-    [ 5.,  6.,  7.,  8.],
-    [ 9., 10., 11., 12.]])
+        [ 5.,  6.,  7.,  8.],
+        [ 9., 10., 11., 12.]])
 torch.Size([3, 4])
 tensor([[ 1.,  5.,  9.],
-    [ 2.,  6., 10.],
-    [ 3.,  7., 11.],
-    [ 4.,  8., 12.]])
+        [ 2.,  6., 10.],
+        [ 3.,  7., 11.],
+        [ 4.,  8., 12.]])
 torch.Size([4, 3])
 ```
 
@@ -748,8 +744,8 @@ print(torch.cat([matrix1.unsqueeze(0), matrix2.unsqueeze(0), matrix3.unsqueeze(0
 
 ```python
 tensor([[ 1.,  2.,  3.,  4.],
-    [ 5.,  6.,  7.,  8.],
-    [ 9., 10., 11., 12.]])
+        [ 5.,  6.,  7.,  8.],
+        [ 9., 10., 11., 12.]])
 ```
 
 `torch.stack([matrix1, matrix2, matrix3])`과 동일한 텐서로 연결하기 위해서는 각 텐서에 `unsqueeze(0)`를 추가해야 됩니다.

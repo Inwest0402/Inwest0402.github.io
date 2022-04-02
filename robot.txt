@@ -1,4 +1,4 @@
-User-agent: Yeti
+User-agent: *
 Allow:/
 Sitemap: https://inwest0402.github.io/sitemap.xml
 
