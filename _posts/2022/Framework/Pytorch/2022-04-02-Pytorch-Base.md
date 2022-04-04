@@ -87,7 +87,7 @@ use_math: true
 
 물론 모든 훈련 데이터를 하나씩 처리한 것도 가능하지만, 컨퓨터는 훈련 데이터를 하나씩 처리하는 것보다는 보통 덩어리로 처리합니다. 만약 1000개를 16개씩 꺼내서 처리한다면, 이 때 batch size를 16이라고 합니다. 이 때 컴퓨터가 한 번에 처리하는 2D 텐서의 크기는 Batch Size$\times$Dimension = 16$\times$32 = 512입니다.
 
-1. **3D Tensor(Typical Computer Vision)**
+2. **3D Tensor(Typical Computer Vision)**
 
 3차원 텐서는 주로 비전쪽에서 많이 사용됩니다. 
 
@@ -744,8 +744,8 @@ print(torch.cat([matrix1.unsqueeze(0), matrix2.unsqueeze(0), matrix3.unsqueeze(0
 
 ```python
 tensor([[ 1.,  2.,  3.,  4.],
-        [ 5.,  6.,  7.,  8.],
-        [ 9., 10., 11., 12.]])
+    [ 5.,  6.,  7.,  8.],
+    [ 9., 10., 11., 12.]])
 ```
 
 `torch.stack([matrix1, matrix2, matrix3])`과 동일한 텐서로 연결하기 위해서는 각 텐서에 `unsqueeze(0)`를 추가해야 됩니다.
