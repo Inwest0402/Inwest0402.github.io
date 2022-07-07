@@ -140,10 +140,9 @@ fs.draw_chart(df, left = 'rsi', right = 'AAPL')
 
 ## 백테스팅
 
-<pre>
+
 주가와 RSI 값을 구했다면, RSI 지표를 이용해 트레이딩을 했을 경우 성과가 어땠는지를 볼 수 있는데, 이는 벡테스팅이라고 부르는 과정이다.
-<b>"Buy Low And Sell High"
-</pre>
+
 
 ```python
 indicator_to_signal(df, factor, buy, sell)
