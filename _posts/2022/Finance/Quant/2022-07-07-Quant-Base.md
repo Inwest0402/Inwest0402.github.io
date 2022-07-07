@@ -3,7 +3,7 @@ title:  "[Quant] 퀀트 기초"
 excerpt: "퀀트 시작하기"
 
 categories:
-  - Quant
+  - Finance
 # tags:
 #   - [Machine Learning, XAI,Surrogate Analysis ]
 
