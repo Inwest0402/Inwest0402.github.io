@@ -118,7 +118,7 @@ df
 fs.draw_chart(df, right = 'AAPL')
 ```
     
-![png](/assets/images/posts/Finance/ch02_5_0.png)
+![png](/assets/images/posts/Finance/quant_base/ch02_5_0.png)
     
 
 
@@ -134,7 +134,7 @@ fs.draw_chart(df, left = 'rsi', right = 'AAPL')
 
 
     
-![png](/assets/images/posts/Finance/ch02_8_0.png)
+![png](/assets/images/posts/Finance/quant_base/ch02_8_0.png)
     
 
 
@@ -192,7 +192,7 @@ fs.draw_chart(df, left = 'rsi', right = 'position_chart')
 
 
     
-![png](/assets/images/posts/Finance/ch02_14_0.png)
+![png](/assets/images/posts/Finance/quant_base/ch02_14_0.png)
     
 
 
@@ -212,7 +212,7 @@ fs.draw_chart(df, left = 'acc_rtn_dp', right = 'AAPL')
 
 
     
-![png](/assets/images/posts/Finance/ch02_16_0.png)
+![png](/assets/images/posts/Finance/quant_base/ch02_16_0.png)
     
 
 
@@ -298,7 +298,7 @@ $
 #### 10. MDD(Maximum Draw Down, 최대낙폭)
 투자기간 중 투자자가 입을 수 있는 최대 손실률을 말한다.
 - 올라갔던 주가가 떨어지는 것을 드로다운(Draw Down)이라고 한다.
-- 드로다운 중 가장 큰 것을 맥시멈ㅁ 드로다운(Maximum Draw Down)이라고 한다.
+- 드로다운 중 가장 큰 것을 맥시멈 드로다운(Maximum Draw Down)이라고 한다.
 - 주가는 상승과 하락을 반복하기 때문에 드로다운은 수시로 나타나는 현상이다.
 
 #### 11. 벤치마크 MDD(Benchmark MDD)
