@@ -308,6 +308,10 @@ $
 
 
 
+> 본 내용은 <슬기로운 퀀트투자> 책을 참고하여 정리한 글입니다. <br>
+[https://www.hanbit.co.kr/store/books/look.php?p_code=B7110068665](https://www.hanbit.co.kr/store/books/look.php?p_code=B7110068665)
+> 
+
 
 
 
