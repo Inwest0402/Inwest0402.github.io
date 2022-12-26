@@ -22,7 +22,7 @@ Tensor는 배열(array)이나 행렬(matrix)과 매우 유사한 특수한 자�
 
 모델의 입력(input)과 출력(output), 그리고 매개변수들을 부호화(encode)합니다.
 
-Numpy의 ndarray와 다른 점 - Pytorch의 텐서는 GPU나 다른 하드웨어 가속기에서 실행할 수 있습니다.
+Numpy의 ndarray와 다른 점 -- Pytorch의 텐서는 GPU나 다른 하드웨어 가속기에서 실행할 수 있습니다.
 
 Pytorch의 텐서, Numpy의 배열(ndarray)은 종종 동일한 내부(underly)메모리를 공유할 수 있어 데이터를 복사할 필요가 없습니다. 
 
