@@ -1,3 +1,19 @@
+---
+title:  "[Quant] MACD(Moving Average Convergence Divergence)"
+excerpt: "MACD란 무엇인가?"
+
+categories: 
+  - Quant
+# tags: 
+#   - [머신러닝, sklearn, 핸즈온]
+toc: true
+toc_sticky: true
+author_profile: false
+use_math: true
+# date: 2022-03-25
+# last_modified_at: 2022-03-25
+---
+
 # 단기투자의 기술 - MACD
 
 ## 시계열 데이터와 이동평균
